@@ -1,0 +1,16 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/java-collection-set-3-hashmap/1">Hash Map or Dictionary Operations</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">Implement a class MyMap that supports the following operations:</span></p><ul><li><span style="font-size: 14pt;"><strong>insert(int x, int y):</strong> Add an entry with key x and value y to the map.</span></li><li><span style="font-size: 14pt;"><strong>get(int x):</strong> Return the value of key x if it is present in the map, otherwise return -1.</span></li><li><span style="font-size: 14pt;"><strong>size():</strong> Return the number of entries currently in the map.</span></li><li><span style="font-size: 14pt;"><strong>remove(int x): </strong>If key x exists in the map, remove it; otherwise, the map remains unchanged.</span></li></ul><p><span style="font-size: 14pt;">There will be a sequence of q <strong>queries[][]</strong>. The queries are represented in numeric form:</span></p><ul><li><span style="font-size: 14pt;">1 x y - Call insert(x, y)</span></li><li><span style="font-size: 14pt;">2 x - Call get(x)</span></li><li><span style="font-size: 14pt;">3 - Call size()</span></li><li><span style="font-size: 14pt;">4 x - Call remove(x)</span></li></ul><p><span style="font-size: 14pt;">The driver code will process the queries, call the corresponding functions, and print the outputs of get() and size() operations. You only need to implement the above four functions.</span></p><p><strong><span style="font-size: 14pt;">Examples:</span></strong></p><pre><span style="font-size: 14pt;"><strong>Input:</strong> queries[][] = [[1, 1, 2], [1, 66, 3], [2, 66], [4, 1], [3]]
+<strong>Output:</strong> [3, 1]
+<strong>Explanation:</strong><span class=""> Operations on the map will process as follows:</span>
+insert(1, 2): Add entry with key 1 and value 2. Map = {1: 2}.
+insert(66, 3): Add entry with key 66 and value 3. Map = {1: 2, 66: 3}.
+get(66): Key 66 exists with value 3, so return 3.
+remove(1): Key 1 exists, remove key 1. Map = {66: 3}.
+size(): The map contains 1 entry, so return 1.</span></pre><pre><span style="font-size: 14pt;"><strong>Input:</strong> queries[][] = [[2, 5], [1, 10, 100], [1, 10, 500], [2, 10], [4, 10], [3]]
+<strong>Output:</strong> [-1, 500, 0]
+<strong>Explanation:</strong> Operations on the map will process as follows:
+get(5): Key 5 is not present, so return -1.
+insert(10, 100): Add entry with key 10 and value 100. Map = {10: 100}.
+insert(10, 500): Key 10 already exists, update its value to 500. Map = {10: 500}.
+get(10): Key 10 exists with value 500, so return 500.
+remove(10): Key 10 exists, remove key 10. Map = {}.
+size(): The map is empty, so return 0.</span></pre></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Paytm</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;<code>CPP</code>&nbsp;<code>python</code>&nbsp;<code>JavaScript</code>&nbsp;<code>C#</code>&nbsp;
