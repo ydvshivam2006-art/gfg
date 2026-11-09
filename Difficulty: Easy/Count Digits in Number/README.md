@@ -2,4 +2,4 @@
 <strong>Output: </strong>4</span><span style="font-size: 18px;"><strong>
 Explanation: </strong>There are 4 digits in 1567, which are 1, 5, 6 and 7.</span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong></span><span style="font-size: 18px;">n = 99999
 <strong>Output: </strong>5
-<strong>Explanation: </strong>Number of digit in 99999 is 5</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Recursion</code>&nbsp;
+<strong>Explanation: </strong>The<strong> </strong>number of digits in 99999 is 5.</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Recursion</code>&nbsp;
