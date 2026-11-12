@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/next-prime-number/1">Next Prime Number</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given an integer <strong>n</strong>, find the smallest prime number strictly greater than <strong>n</strong>.</span></p><p><span style="font-size: 18px;"><strong>Examples:</strong> <strong> </strong></span></p><pre><span style="font-size: 18px;"><strong>Input: </strong>n = 15
+<strong>Output: </strong>17
+<strong>Explanation: </strong>17 is next prime number.</span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>n = 7<strong>
+Output: </strong>11<strong>
+Explanation: </strong>11 is the smallest prime number strictly greater than 7.</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Prime Number</code>&nbsp;<code>Mathematics</code>&nbsp;
